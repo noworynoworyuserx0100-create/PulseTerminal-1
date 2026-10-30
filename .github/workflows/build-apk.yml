@@ -28,7 +28,7 @@ jobs:
       - name: Extract Android project
         run: |
           mkdir project
-          unzip -q PulseTerminal_Android_V1_fixed.zip -d project
+          unzip -q PulseTerminal_Android_V1_buildfix.zip -d project
 
       - name: Build Debug APK
         working-directory: project
